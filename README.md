@@ -5,6 +5,8 @@
 
 The Dieter Rams Style Calculator is a minimalist and intuitive calculator inspired by the design philosophy of Dieter Rams. This calculator focuses on simplicity and functionality, offering a clean and user-friendly interface for all your calculation needs.
 
+Go to the tool - <a href="https://saramjh.github.io/dieterRamsCalc/">Link</a>
+
 ## Features
 
 - **Minimalist Design**: Inspired by Dieter Rams' design principles, providing a clean and straightforward user interface.
