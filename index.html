@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-P8FM6GWD');</script>
+  <!-- End Google Tag Manager -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dieter Rams Style Calculator - Minimalistic & Intuitive Design</title>
+
+  <!-- SEO Meta Tags -->
+  <meta name="description"
+    content="Experience the simplicity of a Dieter Rams-inspired minimalist calculator. Designed for effortless and intuitive calculations.">
+  <meta name="keywords"
+    content="Calculator, Dieter Rams, Minimalist Design, Simple Calculator, Intuitive Calculator, Basic Calculator">
+  <meta name="author" content="saramjh">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.yourwebsite.com/dieter-rams-style-calculator">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Manifest -->
+  <link rel="manifest" href="/manifest.json">
+</head>
+
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P8FM6GWD" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <header>
+    <h1>Dieter Rams Style Calculator</h1>
+    <p>Discover a minimalist calculator designed with simplicity and intuition in mind, inspired by the iconic design
+      philosophy of Dieter Rams.</p>
+
+    <!-- Home Screen Prompt Button -->
+    <div id="home-screen-prompt" class="home-screen-prompt">
+      <button id="show-instructions">Add to Home Screen</button>
+    </div>
+
+    <!-- Instructions Section (Initially Hidden) -->
+    <div id="home-screen-instructions" class="home-screen-instructions" style="display: none;">
+      <ul>
+        <li><strong>For Android Devices:</strong> <br>
+          Open the app in Chrome, tap the menu (three dots), and select "Add to
+          Home Screen".</li>
+        <li><strong>For iPhone and iPad:</strong><br> Open the app in Safari, tap the share icon (square with an upward
+          arrow), and select "Add to Home Screen".</li>
+      </ul>
+      <p>
+        Add our web application to your home screen for quick access and a more app-like experience.
+        Follow the instructions below:
+      </p>
+      <button id="close-instructions">×</button>
+    </div>
+  </header>
+  <div class="calculator">
+    <div id="display" class="display">0</div>
+
+    <div class="buttons">
+      <button class="btn">M+</button>
+      <button class="btn">M-</button>
+      <button class="btn">MR</button>
+      <button class="btn">MC</button>
+      <button class="btn">+/-</button>
+      <button class="btn">∆%</button>
+      <button class="btn">7</button>
+      <button class="btn">8</button>
+      <button class="btn">9</button>
+      <button class="btn operator">÷</button>
+      <button class="btn">√</button>
+      <button class="btn">4</button>
+      <button class="btn">5</button>
+      <button class="btn">6</button>
+      <button class="btn operator">×</button>
+      <button class="btn">%</button>
+      <button class="btn">1</button>
+      <button class="btn">2</button>
+      <button class="btn">3</button>
+      <button class="btn operator">-</button>
+      <button class="btn">CEC</button>
+      <button class="btn">.</button>
+      <button class="btn zero">0</button>
+      <button class="btn equals">=</button>
+      <button class="btn operator">+</button>
+    </div>
+  </div>
+  <footer>
+    <div class="footer-text"><a href="https://github.com/saramjh/scratchLottery">
+        <p>&copy; 2024 saramjh reserved.</p>
+      </a></div>
+  </footer>
+  <script src="js/script.js"></script>
+
+  <!-- Register Service Worker -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/js/sw.js').then((registration) => {
+          console.log('Service Worker registered with scope:', registration.scope);
+        }).catch((error) => {
+          console.log('Service Worker registration failed:', error);
+        });
+      });
+    }
+  </script>
+</body>
+
+</html>
