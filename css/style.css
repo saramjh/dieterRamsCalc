@@ -93,6 +93,11 @@ header p {
 
 .desc {
 	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 0;
+	margin: 0;
 }
 
 .home-screen-prompt {
@@ -331,11 +336,14 @@ footer {
 	}
 
 	header p {
-		position: relative;
 		display: none;
+		position: absolute; /* 화면에 고정 */
+		top: 120%; /* 상단에서 20% 위치 */
+		left: 50%; /* 중앙에 배치 */
+		transform: translate(-50%, -50%); /* 수평 중앙 정렬 */
 		color: #777;
 		background-color: #ffffff;
-		padding: 10px 15px;
+		padding: 10px 40px 15px 15px;
 		border-radius: 10px;
 		width: 80%;
 		font-size: 0.65rem;
@@ -395,7 +403,7 @@ footer {
 		align-items: center;
 		justify-content: center;
 		text-align: center;
-		font-size: 0.9rem;
+		font-size: 0.7rem;
 		width: 80%;
 		height: 20px;
 		margin-bottom: 5px;
