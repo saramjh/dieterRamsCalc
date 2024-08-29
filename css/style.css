@@ -36,7 +36,7 @@ header h1 {
 	color: #5c5c5c;
 	width: 100%;
 	text-align: center;
-	margin: 15px 0 0;
+	margin: 30px 0 0;
 	padding: 10px 5px; /* 패딩 조정 */
 	font-size: 1rem;
 	font-weight: 300;
@@ -121,9 +121,11 @@ header h1 sup {
 	display: flex;
 	justify-content: center;
 	margin-top: 10px;
+	width: 300px;
 }
 
 .home-screen-prompt button {
+	width: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -133,7 +135,7 @@ header h1 sup {
 	border-radius: 15px;
 	padding: 10px 20px;
 	margin-top: 20px;
-	font-size: 1rem;
+	font-size: 0.8rem;
 	cursor: pointer;
 	border-radius: 15px; /* 둥근 모서리 강조 */
 	box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.2), /* 오른쪽 아래 그림자 */ -4px -4px 12px rgba(255, 255, 255, 0.7); /* 왼쪽 위 빛 */
@@ -328,7 +330,7 @@ header h1 sup {
 }
 
 .cec {
-	font-size: 1em;
+	font-size: 0.8rem;
 }
 
 footer {
