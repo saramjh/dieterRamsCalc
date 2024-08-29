@@ -41,7 +41,7 @@ To enhance your user experience, you can add the Dieter Rams Style Calculator to
 The calculator is built using standard web technologies:
 
 - **HTML**: Provides the structure of the application.
-- **CSS**: Styles the application to follow a minimalist design philosophy.
+- **CSS**: Styles the application to follow a minimalist design philosophy and Neumorphism.
 - **JavaScript**: Handles the application logic and user interactions.
 
 ### Prerequisites
