@@ -183,7 +183,7 @@ document.getElementById("close-instructions").addEventListener("click", () => {
 })
 
 document.getElementById("header").addEventListener("click", () => {
-	document.getElementById("descCalc").style.display = "block"
+	document.getElementById("descCalc").style.display = "flex"
 	document.getElementById("close-header").style.display = "flex"
 })
 
