@@ -40,10 +40,20 @@ header h1 {
 	padding: 10px 5px; /* 패딩 조정 */
 	font-size: 1rem;
 	font-weight: 300;
-	border-radius: 1rem; /* 둥근 모서리 강조 */
+	border-radius: 0.7rem; /* 둥근 모서리 강조 */
 	box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.2), /* 오른쪽 아래 그림자 */ -8px -8px 15px rgba(255, 255, 255, 0.7); /* 왼쪽 위 빛 */
 	background: #ebeaea; /* 배경색 조정 */
 	cursor: pointer;
+}
+
+header h1:hover {
+	transition: transform 0.1s ease; /* 눌림 효과를 위한 전환 */
+	background: #e3e3e3; /* 배경색 조정 */
+}
+
+header h1:active {
+	transform: scale(0.95); /* 눌릴 때 크기 줄이기 */
+	background-color: #d5d5d5;
 }
 
 header h1 sup {
@@ -96,11 +106,21 @@ header h1 sup {
 	background: #ffffff; /* 배경색 조정 */
 }
 
+#close-header:hover {
+	transition: transform 0.1s ease; /* 눌림 효과를 위한 전환 */
+	background-color: #e3e3e3;
+}
+
+#close-header:active {
+	transform: scale(0.95); /* 눌릴 때 크기 줄이기 */
+	background-color: #d5d5d5;
+}
+
 .home-screen-prompt {
 	color: 474747;
 	display: flex;
 	justify-content: center;
-	margin-top: 20px;
+	margin-top: 10px;
 }
 
 .home-screen-prompt button {
@@ -112,7 +132,7 @@ header h1 sup {
 	border: none;
 	border-radius: 15px;
 	padding: 10px 20px;
-	margin-top: -10px;
+	margin-top: 20px;
 	font-size: 1rem;
 	cursor: pointer;
 	border-radius: 15px; /* 둥근 모서리 강조 */
@@ -122,7 +142,13 @@ header h1 sup {
 }
 
 .home-screen-prompt button:hover {
-	background-color: #c55810;
+	transition: transform 0.1s ease; /* 눌림 효과를 위한 전환 */
+	background-color: #ec8c06;
+}
+
+.home-screen-prompt button:active {
+	transform: scale(0.95); /* 눌릴 때 크기 줄이기 */
+	background-color: #eb8a03;
 }
 
 /* Instructions Container */
@@ -205,6 +231,15 @@ header h1 sup {
 	box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2), /* 오른쪽 아래 그림자 */ -3px -3px 5px rgba(255, 255, 255, 0.7); /* 왼쪽 위 빛 */
 	background: #ffffff; /* 배경색 조정 */
 }
+#close-instructions:hover {
+	transition: transform 0.1s ease; /* 눌림 효과를 위한 전환 */
+	background-color: #e3e3e3;
+}
+
+#close-instructions:active {
+	transform: scale(0.95); /* 눌릴 때 크기 줄이기 */
+	background-color: #d5d5d5;
+}
 
 .calculator {
 	position: absolute;
@@ -240,7 +275,7 @@ header h1 sup {
 	color: #f1f0f0;
 	text-align: right;
 	padding: 20px;
-	font-size: 2em;
+	font-size: 1.5rem;
 	border-radius: 5px;
 	margin-bottom: 20px;
 	box-shadow: inset 2px 2px 6px rgba(0, 0, 0, 1);
@@ -315,6 +350,16 @@ footer {
 	background: #ebeaea; /* 배경색 조정 */
 }
 
+footer:hover {
+	transition: transform 0.1s ease; /* 눌림 효과를 위한 전환 */
+	background-color: #e3e3e3;
+}
+
+footer:active {
+	transform: scale(0.95); /* 눌릴 때 크기 줄이기 */
+	background-color: #d5d5d5;
+}
+
 #pText {
 	color: #989898;
 }
@@ -352,7 +397,7 @@ footer {
 
 	.calculator {
 		position: none;
-		top: 370px;
+		top: 350px;
 		background: linear-gradient(95deg, #f5f4f2 90%, #eeecec 100%);
 		border-radius: 15px; /* 둥근 모서리 강조 */
 		box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.2), /* 오른쪽 아래 그림자 */ -8px -8px 20px rgba(255, 255, 255, 0.7); /* 왼쪽 위 빛 */
@@ -367,12 +412,16 @@ footer {
 	.home-screen-prompt {
 		display: flex;
 		justify-content: center;
-		margin-top: -5px;
+		margin-top: 0px;
+		width: 80%;
+		height: 45px;
 	}
 
 	.home-screen-prompt button {
 		border-radius: 10px;
 		padding: 5px 30px;
+		width: 100%;
+		font-size: 0.8rem;
 	}
 
 	.home-screen-instructions {
