@@ -1,6 +1,5 @@
 # Dieter Rams Style Calculator
-![image](https://github.com/user-attachments/assets/aa0e326f-98db-4d97-bb83-1bb754d8c27f)
-
+<img width="1357" alt="image" src="https://github.com/user-attachments/assets/c9620ecb-1d52-4c82-a017-87da9783192f">
 
 ## Overview
 
