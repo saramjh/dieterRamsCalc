@@ -141,7 +141,7 @@ document.querySelectorAll(".btn").forEach((button) => {
 			} else {
 				calculate() // 일반 계산
 			}
-		} else if (value === "CE/C") {
+		} else if (value === "CEC") {
 			clearEntry()
 		} else if (value === "M+") {
 			memoryAdd()
