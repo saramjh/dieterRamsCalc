@@ -338,7 +338,7 @@ footer {
 	header p {
 		display: none;
 		position: absolute; /* 화면에 고정 */
-		top: 120%; /* 상단에서 20% 위치 */
+		top: 130%; /* 상단에서 20% 위치 */
 		left: 50%; /* 중앙에 배치 */
 		transform: translate(-50%, -50%); /* 수평 중앙 정렬 */
 		color: #777;
@@ -351,9 +351,19 @@ footer {
 	#close-header {
 		display: none;
 	}
+
 	.calculator {
-		top: 53%;
-		margin-bottom: 20px;
+		position: none;
+		top: 370px;
+		background: linear-gradient(95deg, #f5f4f2 90%, #eeecec 100%);
+		border-radius: 15px; /* 둥근 모서리 강조 */
+		box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.2), /* 오른쪽 아래 그림자 */ -8px -8px 20px rgba(255, 255, 255, 0.7); /* 왼쪽 위 빛 */
+		width: auto; /* Adjusted for 5x5 grid */
+		min-width: 300px;
+		padding: 35px 15px 25px;
+		box-sizing: border-box;
+		border-bottom: 10px solid rgba(0, 0, 0, 0.16);
+		border-right: 2px solid rgba(0, 0, 0, 0.1);
 	}
 
 	.home-screen-prompt {
@@ -407,7 +417,7 @@ footer {
 		font-size: 0.7rem;
 		width: 80%;
 		height: 20px;
-		margin-bottom: 5px;
+		margin-bottom: 15px;
 		border-radius: 10px;
 		overflow: hidden;
 		z-index: -1;
