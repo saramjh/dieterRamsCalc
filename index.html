@@ -48,31 +48,33 @@
   <!-- End Google Tag Manager (noscript) -->
 
   <header>
-    <h1>Dieter Rams Style Calculator</h1>
-    <p>Discover a minimalist calculator designed with simplicity and intuition in mind, inspired by the iconic design
-      philosophy of Dieter Rams.</p>
+    <h1 id="header">Dieter Rams Style Calculator</h1>
+    <p id="descCalc">Discover a minimalist calculator designed with simplicity and intuition in mind, inspired by the
+      iconic design
+      philosophy of Dieter Rams. <button id="close-header">×</button></p>
 
-    <!-- Home Screen Prompt Button -->
-    <div id="home-screen-prompt" class="home-screen-prompt">
-      <button id="show-instructions">Add to Home Screen</button>
-    </div>
-
-    <!-- Instructions Section (Initially Hidden) -->
-    <div id="home-screen-instructions" class="home-screen-instructions" style="display: none;">
-      <ul>
-        <li><strong>For Android Devices:</strong> <br>
-          Open the app in Chrome, tap the menu (three dots), and select "Add to
-          Home Screen".</li>
-        <li><strong>For iPhone and iPad:</strong><br> Open the app in Safari, tap the share icon (square with an upward
-          arrow), and select "Add to Home Screen".</li>
-      </ul>
-      <p>
-        Add our web application to your home screen for quick access and a more app-like experience.
-        Follow the instructions below:
-      </p>
-      <button id="close-instructions">×</button>
-    </div>
   </header>
+  <!-- Home Screen Prompt Button -->
+  <div id="home-screen-prompt" class="home-screen-prompt">
+    <button id="show-instructions">Add to Home Screen</button>
+  </div>
+
+  <!-- Instructions Section (Initially Hidden) -->
+  <div id="home-screen-instructions" class="home-screen-instructions" style="display: none;">
+    <ul>
+      <li><strong>For Android Devices:</strong> <br>
+        Open the app in Chrome, tap the menu (three dots), and select "Add to
+        Home Screen".</li>
+      <li><strong>For iPhone and iPad:</strong><br> Open the app in Safari, tap the share icon (square with an upward
+        arrow), and select "Add to Home Screen".</li>
+    </ul>
+    <p>
+      Add our web application to your home screen for quick access and a more app-like experience.
+      Follow the instructions below:
+    </p>
+    <button id="close-instructions">×</button>
+  </div>
+
   <div class="calculator">
     <div id="display" class="display">0</div>
 
@@ -106,7 +108,7 @@
   </div>
   <footer>
     <div class="footer-text"><a href="https://github.com/saramjh/dieterRamsCalc/tree/main">
-        <p>&copy; 2024 saramjh reserved.</p>
+        <p id="pText">&copy; 2024 saramjh reserved.</p>
       </a></div>
   </footer>
   <script src="js/script.js"></script>
