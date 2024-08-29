@@ -84,7 +84,7 @@ header p {
 	top: 0px; /* 상단 10px 위치 */
 	right: 0px; /* 오른쪽 10px 위치 */
 	border-radius: 5px; /* 둥근 모서리 강조 */
-	margin: 5px 7px;
+	margin: 10px 8px;
 	width: 20px;
 	height: 20px;
 	box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2), /* 오른쪽 아래 그림자 */ -3px -3px 5px rgba(255, 255, 255, 0.7); /* 왼쪽 위 빛 */
@@ -215,7 +215,7 @@ header p {
 	padding: 35px 15px 25px;
 	margin: 2px;
 	box-sizing: border-box;
-	border-bottom: 10px solid rgba(0, 0, 0, 0.3);
+	border-bottom: 10px solid rgba(0, 0, 0, 0.16);
 	border-right: 2px solid rgba(0, 0, 0, 0.1);
 }
 
@@ -256,10 +256,10 @@ header p {
 	background-color: #f0f0f0;
 	border: none;
 	border-radius: 0.7rem;
-	font-size: 1rem;
+	font-size: 0.8em;
 	cursor: pointer;
 	transition: transform 0.1s ease; /* 눌림 효과를 위한 전환 */
-	box-shadow: 2px 3px 0px rgba(0, 0, 0, 0.08);
+	box-shadow: 1.5px 4px 0px rgba(0, 0, 0, 0.08);
 	aspect-ratio: 1 / 1; /* Maintain 1:1 aspect ratio */
 }
 
@@ -271,6 +271,7 @@ header p {
 .operator {
 	background-color: #ff9500;
 	color: #ffffff;
+	box-shadow: 1.5px 4px 0px rgba(255, 119, 61, 0.2);
 }
 
 .operator:hover {
@@ -280,10 +281,23 @@ header p {
 .equals {
 	background-color: #ff9500;
 	color: #ffffff;
+	box-shadow: 1.5px 4px 0px rgba(255, 119, 61, 0.2);
 }
 
 .equals:hover {
 	background-color: #e08900;
+}
+
+.cec {
+	font-size: 1em;
+}
+
+.cec sup {
+	font-size: 0.7em;
+}
+
+.cec sub {
+	font-size: 0.7em;
 }
 
 footer {
