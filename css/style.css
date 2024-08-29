@@ -352,13 +352,14 @@ footer {
 		display: none;
 	}
 	.calculator {
+		top: 53%;
 		margin-bottom: 20px;
 	}
 
 	.home-screen-prompt {
 		display: flex;
 		justify-content: center;
-		margin-top: 15px;
+		margin-top: -5px;
 	}
 
 	.home-screen-prompt button {
@@ -367,7 +368,7 @@ footer {
 	}
 
 	.home-screen-instructions {
-		background-color: #ffffff; /* 깨끗하고 깔끔한 배경 */
+		background-color: #ebeaea; /* 깨끗하고 깔끔한 배경 */
 		color: #333333; /* 부드러운 회색으로 텍스트 가독성 향상 */
 		border-radius: 5px; /* 모서리 둥글게 */
 		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 가벼운 그림자 추가 */
